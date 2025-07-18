@@ -4,11 +4,11 @@
 <b>Discipline | <b> Physical Science
 :--|:--|
 <b> Lab | <b> Harmonic Motion and Waves
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Experiment|     <b> Hartley Oscillator
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+Hartley Oscillator is an electronic oscillator,which uses two inductor and a capacitor to determine frequency.It is high frequency generator.Invented in 1915 by American engineer Ralph Hartley.
 
 <b>Name of Developer | <b> Amrita Virtual Labs
 :--|:--|
