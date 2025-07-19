@@ -140,7 +140,7 @@ The frequency of oscillation is given by:
 
 $$f=\frac{1}{2\pi \sqrt{LC}}$$
 
-This is our output wave form.
+This is the output waveform.
 
 
 <div style="display: block; margin-left: auto; margin-right: auto; text-align: center; width: fit-content;"><img src="./images/figure4.jpg" alt="Figure 4" style="max-width: 600px; height: auto;"><p style="text-align: center; font-size: smaller; font-style: italic;"> </p></div>
