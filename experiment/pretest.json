@@ -2,35 +2,69 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In a transistor Hartley oscillator",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Capacitive feedback is used",
+        "b": "Inductive feedback is used",
+        "c": "Entire coil is in the output circuit",
+        "d": "Resistive feedback is used"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Colpitts oscillator uses capacitive feedback.",
+        "b": "Correct—Hartley oscillator uses inductive feedback via tapped inductors.",
+        "c": "Not entirely accurate.",
+        "d": "Resistive feedback is not typically used in Hartley oscillators."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The feedback signal in which of the following oscillator is derived from an inductive voltage divider in the LC circuit",
+      "answers": {
+        "a": "Hartley Oscillator",
+        "b": "Weins bridge oscillator",
+        "c": "Colpitts Oscillator",
+        "d": "Phase shift Oscillator"
+      },
+      "explanations": {
+        "a": "Correct—Hartley oscillator uses a tapped inductor (inductive divider).",
+        "b": "Uses a bridge circuit.",
+        "c": "Uses capacitive divider.",
+        "d": "Uses RC phase shift network."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "One condition for positive feedback is that the phase shift around the feedback loop must be",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "45",
+        "b": "90",
+        "c": "180",
+        "d": "0"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect value for constructive feedback.",
+        "b": "Insufficient for oscillation.",
+        "c": "Correct for negative feedback (destructive).",
+        "d": "Correct for positive feedback and oscillation."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of sine-wave oscillator uses a tapped inductor to provide the positive feedback required for oscillation?",
+      "answers": {
+        "a": "Clap Oscillator",
+        "b": "Colpitts Oscillator",
+        "c": "Hartley Oscillator",
+        "d": "Pierce Oscillator"
+      },
+      "explanations": {
+        "a": "Uses capacitive feedback.",
+        "b": "Uses capacitive divider.",
+        "c": "Correct—Hartley uses tapped inductor for feedback.",
+        "d": "Crystal oscillator with capacitive feedback."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

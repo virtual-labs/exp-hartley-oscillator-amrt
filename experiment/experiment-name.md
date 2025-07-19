@@ -1,1 +1,1 @@
-## Experiment name
+## Hartley Oscillator
