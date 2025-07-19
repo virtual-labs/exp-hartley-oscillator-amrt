@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What type of capacitor is usually used in the tuned circuits of oscillators?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Electrolytic",
+        "b": "Surface mount",
+        "c": "High voltage",
+        "d": "Low loss"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "High leakage—unsuitable for oscillators.",
+        "b": "Form factor, not quality.",
+        "c": "Not necessary unless high voltage involved.",
+        "d": "Correct—low loss capacitors maintain frequency stability."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For sustaining oscillations in an oscillator",
+      "answers": {
+        "a": "Feedback factor should be negative and phase shift should be 0 or nπ",
+        "b": "Phase shift should be unity and phase shift should be 0 or π/2",
+        "c": "Phase shift should be negative and phase shift should be 0 or π/2",
+        "d": "Feedback factor should be unity and phase shift should be 0 or nπ"
+      },
+      "explanations": {
+        "a": "Incorrect—feedback must be positive.",
+        "b": "Incorrect wording—gain should be unity, not phase shift.",
+        "c": "Incorrect—phase shift must match Barkhausen criterion.",
+        "d": "Correct—this is the Barkhausen criterion."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Choose the right answer for Barkhausen criteria",
+      "answers": {
+        "a": "βA = +1",
+        "b": "βA = 0",
+        "c": "βA = -1",
+        "d": "β = A"
+      },
+      "explanations": {
+        "a": "Correct—this is the Barkhausen criterion for sustained oscillation.",
+        "b": "No oscillation occurs at βA = 0.",
+        "c": "This implies negative feedback.",
+        "d": "Dimensionally incorrect."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following factors do not affect the frequency stability of an oscillator?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Inter-element capacitances and stray capacitances",
+        "b": "Coil size",
+        "c": "Temperature variation",
+        "d": "Output load"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "These impact stability by altering tuning.",
+        "b": "Affects inductance and thus frequency.",
+        "c": "Affects component values.",
+        "d": "Correct—output load has minimal direct effect on oscillator frequency."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Hartley oscillator, the expression for frequency of oscillation is given by",
+      "answers": {
+        "a": "f = 1 / (2πRC√6)",
+        "b": "f = 1 / (2π√(LC)) with L = L₁ + L₂",
+        "c": "f = 1 / (2π√(LC)) with C = (C₁ × C₂) / (C₁ + C₂)",
+        "d": "f = 1 / (2π√(R₁ × R₂ × C₁ × C₂))"
+      },
+      "explanations": {
+        "a": "Incorrect general form.",
+        "b": "Correct—Hartley oscillator uses total inductance as L = L1 + L2.",
+        "c": "This is the formula for Colpitts oscillator.",
+        "d": "Not relevant to Hartley oscillator."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
