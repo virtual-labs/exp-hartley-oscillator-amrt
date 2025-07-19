@@ -90,7 +90,7 @@ As per the voltage divider theorem (Fig 1),
 
 $$V_{R2} = \frac{V_{CC} R_2}{R_1 + R_2}$$
 
-\text{As seen,}
+$\text{As seen,}$
 $$V_E = V_{R2} - V_{BE}$$
 
 $\text{So,}$
