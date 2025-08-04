@@ -1,0 +1,158 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In a transistor Hartley oscillator",
+      "answers": {
+        "a": "Capacitive feedback is used",
+        "b": "Inductive feedback is used",
+        "c": "Entire coil is in the output circuit",
+        "d": "Resistive feedback is used"
+      },
+      "explanations": {
+        "a": "Colpitts oscillator uses capacitive feedback.",
+        "b": "Correct—Hartley oscillator uses inductive feedback via tapped inductors.",
+        "c": "Not entirely accurate.",
+        "d": "Resistive feedback is not typically used in Hartley oscillators."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The feedback signal in which of the following oscillator is derived from an inductive voltage divider in the LC circuit",
+      "answers": {
+        "a": "Hartley Oscillator",
+        "b": "Weins bridge oscillator",
+        "c": "Colpitts Oscillator",
+        "d": "Phase shift Oscillator"
+      },
+      "explanations": {
+        "a": "Correct—Hartley oscillator uses a tapped inductor (inductive divider).",
+        "b": "Uses a bridge circuit.",
+        "c": "Uses capacitive divider.",
+        "d": "Uses RC phase shift network."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "One condition for positive feedback is that the phase shift around the feedback loop must be",
+      "answers": {
+        "a": "45",
+        "b": "90",
+        "c": "180",
+        "d": "0"
+      },
+      "explanations": {
+        "a": "Incorrect value for constructive feedback.",
+        "b": "Insufficient for oscillation.",
+        "c": "Correct for negative feedback (destructive).",
+        "d": "Correct for positive feedback and oscillation."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of sine-wave oscillator uses a tapped inductor to provide the positive feedback required for oscillation?",
+      "answers": {
+        "a": "Clap Oscillator",
+        "b": "Colpitts Oscillator",
+        "c": "Hartley Oscillator",
+        "d": "Pierce Oscillator"
+      },
+      "explanations": {
+        "a": "Uses capacitive feedback.",
+        "b": "Uses capacitive divider.",
+        "c": "Correct—Hartley uses tapped inductor for feedback.",
+        "d": "Crystal oscillator with capacitive feedback."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of capacitor is usually used in the tuned circuits of oscillators?",
+      "answers": {
+        "a": "Electrolytic",
+        "b": "Surface mount",
+        "c": "High voltage",
+        "d": "Low loss"
+      },
+      "explanations": {
+        "a": "High leakage—unsuitable for oscillators.",
+        "b": "Form factor, not quality.",
+        "c": "Not necessary unless high voltage involved.",
+        "d": "Correct—low loss capacitors maintain frequency stability."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For sustaining oscillations in an oscillator",
+      "answers": {
+        "a": "Feedback factor should be negative and phase shift should be 0 or nπ",
+        "b": "Phase shift should be unity and phase shift should be 0 or π/2",
+        "c": "Phase shift should be negative and phase shift should be 0 or π/2",
+        "d": "Feedback factor should be unity and phase shift should be 0 or nπ"
+      },
+      "explanations": {
+        "a": "Incorrect—feedback must be positive.",
+        "b": "Incorrect wording—gain should be unity, not phase shift.",
+        "c": "Incorrect—phase shift must match Barkhausen criterion.",
+        "d": "Correct—this is the Barkhausen criterion."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Choose the right answer for Barkhausen criteria",
+      "answers": {
+        "a": "βA = +1",
+        "b": "βA = 0",
+        "c": "βA = -1",
+        "d": "β = A"
+      },
+      "explanations": {
+        "a": "Correct—this is the Barkhausen criterion for sustained oscillation.",
+        "b": "No oscillation occurs at βA = 0.",
+        "c": "This implies negative feedback.",
+        "d": "Dimensionally incorrect."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following factors do not affect the frequency stability of an oscillator?",
+      "answers": {
+        "a": "Inter-element capacitances and stray capacitances",
+        "b": "Coil size",
+        "c": "Temperature variation",
+        "d": "Output load"
+      },
+      "explanations": {
+        "a": "These impact stability by altering tuning.",
+        "b": "Affects inductance and thus frequency.",
+        "c": "Affects component values.",
+        "d": "Correct—output load has minimal direct effect on oscillator frequency."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Hartley oscillator, the expression for frequency of oscillation is given by",
+      "answers": {
+        "a": "f = 1 / (2πRC√6)",
+        "b": "f = 1 / (2π√(LC)) with L = L₁ + L₂",
+        "c": "f = 1 / (2π√(LC)) with C = (C₁ × C₂) / (C₁ + C₂)",
+        "d": "f = 1 / (2π√(R₁ × R₂ × C₁ × C₂))"
+      },
+      "explanations": {
+        "a": "Incorrect general form.",
+        "b": "Correct—Hartley oscillator uses total inductance as L = L1 + L2.",
+        "c": "This is the formula for Colpitts oscillator.",
+        "d": "Not relevant to Hartley oscillator."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
